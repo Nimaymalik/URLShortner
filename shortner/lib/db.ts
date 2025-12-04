@@ -1,3 +1,4 @@
+// Connection with the database
 import { Pool, QueryResultRow } from "pg"
 
 declare global {

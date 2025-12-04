@@ -1,3 +1,4 @@
+// Entry point of the NEXT application where we import all components
 import "./globals.css";
 import type { Metadata } from "next";
 import LayoutShell from "@/components/LayoutShell";

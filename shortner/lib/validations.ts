@@ -1,3 +1,4 @@
+// Here the validation of the URL logic is written
 import { CODE_REGEX } from "./shortCode";
 
 export function validateUrl(url: string): string {
@@ -12,6 +13,7 @@ export function validateUrl(url: string): string {
     }
 }
 
+// validation of the shortcode
 export function validateCustomCode(code: string) {
     if (!CODE_REGEX.test(code)) {
         throw new Error("Code must be 6–8 chars [A-Za-z0-9]");

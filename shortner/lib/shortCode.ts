@@ -1,3 +1,4 @@
+// creation of the shortcode which is liked to URL
 const ALPHABET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
 export const CODE_REGEX = /^[A-Za-z0-9]{6,8}$/;

@@ -1,7 +1,7 @@
+// This the Your link component where we can see all the links of the database
 "use client";
 
 import React, { useMemo, useState } from "react";
-
 export interface LinkRow {
     code: string;
     url: string;

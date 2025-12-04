@@ -1,3 +1,5 @@
+// This is the stats page of the URL which the URL has created of the specific URL
+
 import { dbQuery } from "@/lib/db";
 import { notFound } from "next/navigation";
 

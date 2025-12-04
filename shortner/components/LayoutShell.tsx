@@ -1,3 +1,4 @@
+// Tihs is the dashboard page
 "use client";
 
 import React from "react";
@@ -18,7 +19,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
                             </svg>
                         </div>
                         <h1 className="text-xl font-bold tracking-tight text-white">
-                            Tiny<span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400">Link</span>
+                            Short<span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400">Link</span>
                         </h1>
                     </Link>
                     <nav className="flex gap-6 text-sm font-medium">
@@ -36,7 +37,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
             </header>
             <main className="mx-auto w-full max-w-5xl flex-1 px-6 pt-28 pb-12">{children}</main>
             <footer className="border-t border-white/5 py-8 text-center text-xs text-slate-500">
-                <p>TinyLink • Premium URL Shortener</p>
+                <p>ShortLink URL Shortener</p>
             </footer>
         </div>
     );

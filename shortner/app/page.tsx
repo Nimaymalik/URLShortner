@@ -1,3 +1,5 @@
+// This is the How it works page where the user can see Howe to use the URL shortner webpage
+
 "use client";
 
 import React, { useEffect, useState } from "react";

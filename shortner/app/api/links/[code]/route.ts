@@ -1,3 +1,4 @@
+// This is the page where we can Get and Delete the URL pasted by User
 import { NextRequest, NextResponse } from "next/server";
 import { dbQuery } from "@/lib/db";
 
