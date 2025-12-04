@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import LayoutShell from "@/components/LayoutShell";
 
 export const metadata: Metadata = {
-    title: "TinyLink — URL shortener",
-    description: "TinyLink take-home assignment using Next.js + Neon",
+    title: "ShortLink",
+    description: "ShortLink take-home assignment using Next.js + Neon",
 };
 
 export default function RootLayout({
